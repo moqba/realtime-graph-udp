@@ -1,4 +1,6 @@
 # realtime-graph-udp
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This tool provides non-blocking, high-performance live plotting in Python using UDP for data transmission. It integrates PyQtGraph to deliver smooth, real-time updates while remaining lightweight and simple to use.
 
 Originally developed to enable live visualization in Python test environments without slowing down execution, it offloads plotting to a separate process. By streaming data over UDP, test performance remains unaffected, and the graphing process can run independently to ensure seamless, real-time monitoring.
