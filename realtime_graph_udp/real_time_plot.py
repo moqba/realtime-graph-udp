@@ -17,8 +17,8 @@ class GraphSettings:
     graph_title: str
     x_label: str = ""
     y_label: str = ""
-    x_range: tuple[int, int] | None = None
-    y_range: tuple[int, int] | None = None
+    x_range: tuple[float, float] | None = None
+    y_range: tuple[float, float] | None = None
 
 
 @dataclass
