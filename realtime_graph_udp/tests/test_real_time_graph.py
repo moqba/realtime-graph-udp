@@ -5,7 +5,7 @@ from typing import Final
 from realtime_graph_udp.graph_server import GraphClient, GraphData
 from realtime_graph_udp.real_time_plot import GraphSettings, PlotLabel, run_live_plot
 
-PROCESS_START_DELAY: Final[int] = 3
+PROCESS_START_DELAY: Final[int] = 40
 SAMPLING_RATE: Final[float] = 0.5
 
 
